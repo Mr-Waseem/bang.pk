@@ -1,0 +1,11 @@
+{
+  "providers": [
+    "HnhDigital\\LaravelNumberConverter\\ServiceProvider"
+  ],
+  "aliases": [
+    {
+      "alias": "NumConvert",
+      "facade": "HnhDigital\\LaravelNumberConverter\\Facade"
+    }
+  ]
+}

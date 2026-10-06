@@ -1,0 +1,84 @@
+#panelbg {
+    /* background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%); */
+    background: #3498db;
+}
+
+#subpanelbg {
+    background: #3498db;
+}
+
+#menubg {
+    /* background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%); */
+    background: #3498db;
+}
+
+#menufont {
+    font-family: sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#datafont {
+    font-size: 12px;
+    border-bottom: 1px dotted;
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+
+#tableth {
+    border: 2px solid;
+    font-size: 14px;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+#vouchersAboveDetail {
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#voucherCheckedBy {
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#voucherName {
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#systemTitle {
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#systemDetail {
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#tabledata {
+    text-align: center;
+    border-bottom: 1px solid;
+}
+#tabledataleft {
+    border-bottom: 1px solid;
+}
+#tabledataright {
+    text-align: right;
+    border-bottom: 1px solid;
+}
+
+.pagebreak {
+    page-break-before: always;
+}

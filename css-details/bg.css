@@ -1,0 +1,72 @@
+#panelbg{
+	background-color: #009688;
+	/*background-color: #f0061c;*/
+}
+
+#subpanelbg{
+	background-color: blue;
+}
+
+#menubg{
+	background-color: #5ba0f5;
+	/*background-color: #1cf819;*/
+}
+
+#menufont{
+	font-family: cursive;
+	color: white;
+}
+
+#datafont{
+	font-size: 18px;
+	border-bottom:1px dotted;
+	border-right:1px solid;
+	border-left:1px solid;
+}
+
+#tableth{
+	border:2px solid;
+	font-size: 14px;
+	font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+#vouchersAboveDetail{
+	font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#voucherCheckedBy{
+	font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#voucherName{
+	font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+
+#systemTitle{
+	font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#systemDetail{
+	font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#tabledata{
+	text-align:center;
+    border-bottom: 1px solid;
+}

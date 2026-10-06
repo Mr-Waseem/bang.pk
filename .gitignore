@@ -1,0 +1,17 @@
+/root/node_modules
+/root/vendor
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/root/.env
+/root/.env.backup
+/root/.phpunit.result.cache
+/root/docker-compose.override.yml
+/root/Homestead.json
+/root/Homestead.yaml
+/root/npm-debug.log
+/root/yarn-error.log
+/.idea
+/.vscode
+/bookkeeping.zip

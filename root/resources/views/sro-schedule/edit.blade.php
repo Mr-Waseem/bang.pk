@@ -1,0 +1,46 @@
+@extends("app")
+@section("contents")
+<h1 class="page-title">Edit SRO Schedule</h1>
+
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="panel panel-default">
+						<div class="panel-heading clearfix">
+							<h3 class="panel-title">Edit SRO Schedule</h3>
+						</div>
+						<div class="panel-body">
+							@include('errors.validation')
+							{!! Form::model($edit, ['method' => 'PATCH', 'action' => ['App\Http\Controllers\SROScheduleController@update', $edit->id], 'class' => 'form-horizontal' ]) !!}
+							<div class="form-group"> 
+									<label class="col-sm-3 control-label">SRO Schedule Name</label>  
+									<div class="col-sm-5"> 
+									{!! Form::text('sro_schedule_name', null, ['id' => 'sro_schedule_name','class'=>'form-control',]) !!}
+									</div> 
+								</div>
+								<div class="form-group"> 
+									<label class="col-sm-3 control-label">Choose Scenario</label>
+									<div class="col-sm-5"> 
+									{!! Form::select('scenario_id', $scenario, null, ['id' => 'scenario_id','class'=>'form-control',]) !!}
+									</div> 
+								</div>
+							
+								<div class="line-dashed"></div>
+								<center><div class="form-actions">
+							  <button type="submit" class="btn btn-primary">Save</button>
+							</div></center>
+							{!! Form::close() !!}
+						</div>
+					</div>
+				</div>
+			</div>
+@stop
+@section('scripts')
+    <script src="{{ asset('js/plugins/select2/select2.full.min.js') }}"></script>
+    <script type="text/javascript">
+        $("#scenario_id").select2();
+        $("#scenario_id").next(".select2").find(".select2-selection").focus(function() {
+            $("#scenario_id").select2("open");
+        });
+
+		</script>
+@stop

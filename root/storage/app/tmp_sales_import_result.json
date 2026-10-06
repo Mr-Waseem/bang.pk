@@ -1,0 +1,15 @@
+{
+    "invA": 84732045,
+    "invB": 84732046,
+    "saleA_id": 1297,
+    "saleB_id": 1298,
+    "party_id": 1361,
+    "same_party": true,
+    "rate": "1391.0000",
+    "price": "1224.08",
+    "tax": "220.33",
+    "ftax": "48.96",
+    "adv": "2.50",
+    "incTax": "103.43",
+    "party_delta_cnic": 1
+}
